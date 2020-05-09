@@ -11,7 +11,7 @@ GREEN = "#08c65b"
 
 
 layout = [
-    [sg.Text('Select .pptx file:')],
+    [sg.Text('Select a .pptx file:')],
 
     # Select file and start
     [sg.Input(key='pptx_input'), sg.FileBrowse(key="pptx_input_browse")],
