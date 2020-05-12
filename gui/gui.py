@@ -29,7 +29,7 @@ def hide(PATH):
     prs = Presentation(PATH)
     for slide in prs.slides:
         if slide.has_notes_slide:
-            slide.notes_slide.notes_placeholder.text = re.sub(r"\n?<hide>[\s\S]*?</hide>", "", slide.notes_slide.notes_placeholder.text)
+            slide.notes_slide.notes_placeholder.text = re.sub(r"\n?\*\*[\s\S]*?\*\*", "", slide.notes_slide.notes_placeholder.text)
     
     outputname = os.path.split(PATH)[0] + "/" + os.path.split(PATH)[1].split(".")[0] + "_OUTPUT.pptx"
     print(outputname)
