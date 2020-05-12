@@ -4,10 +4,10 @@ Python script with a GUI to remove private notes from PowerPoint slides.
 
 ![screenshot](/screenshot.png)
 
-Left: Public File
-Right: Private File
 <a href="https://github.com/jk31/private-powerpoint-notes/raw/master/gui/PrivatePowerPointNotes.exe">Download</a>
 
+Left: Public File  
+Right: Private File  
 ![example image](/slides/example.png)
 
 Use `**Your private note**` in your private file. The script creates a new file without your private notes.
